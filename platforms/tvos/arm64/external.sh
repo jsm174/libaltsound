@@ -17,6 +17,6 @@ mkdir bass
 cd bass
 curl -s https://www.un4seen.com/files/bass24-ios.zip -o bass.zip
 unzip bass.zip 
-cp bass.h ../../third-party/include
+cp c/bass.h ../../third-party/include
 cp -r bass.xcframework/ios-arm64_armv7_armv7s/bass.framework ../../third-party/runtime-libs/tvos/arm64/frameworks
 
